@@ -1,0 +1,4 @@
+<% @school_classes.each do |sclass| %>
+<div> <%= link_to sclass.title,
+  school_class_path(sclass)%> </div>
+<%end%>
