@@ -1,4 +1,4 @@
-module ApplicationHelper
+module SchoolClassesHelper
     def button_text
         if controller.controller_name == "school_classes"
             if controller.action_name == "new"
